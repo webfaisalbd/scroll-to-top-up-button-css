@@ -28,7 +28,7 @@
     <!-- ---------------------END-----------------------------------  -->
 
 
-    
+
     
      <!-- navbar start  -->
      <nav class="navbar navbar-expand-lg bg-light">
@@ -149,6 +149,31 @@
 
 
 
+
+
+    
+
+
+ <!-- ---------------------------------------------------
+ ---------------------------------------------------
+ -----------------------Scroll Top START------------ -->
+ <script>
+
+    var scroll = document.querySelector('.scrollTop');
+    window.addEventListener('scroll', function () {
+        scroll.classList.toggle("active", window.scrollY > 100)
+    })
+
+    scroll.addEventListener('click', backToTop);
+
+    function backToTop() {
+        window.scrollTo(0, 0);
+    }
+
+</script>
+ <!-- -----------------------Scroll Top END------------
+ ---------------------------------------------------
+ --------------------------------------------------- -->
 
 
 
